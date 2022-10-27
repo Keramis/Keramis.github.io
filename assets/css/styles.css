@@ -1,0 +1,28 @@
+p {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+#f_paragraph {
+  color: white;
+  padding: 0px;
+}
+
+#description {
+  padding-bottom: 80px;
+  font-size: larger;
+}
+
+#middle-part {
+  text-align: center;
+}
+
+#KeramiScript_Column {
+  text-decoration: none;
+}
+
+#fav-projects-heading {
+  padding-bottom: 2em;
+}
+
