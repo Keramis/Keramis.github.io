@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>KeramiPage</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Autour+One&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bai+Jamjuree&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
@@ -14,7 +19,7 @@
 
 <body class="d-flex flex-column min-vh-100" style="background: url(&quot;assets/img/bg_img.png&quot;);color: rgb(255,255,255);">
     <div>
-        <h1 class="display-4 text-center" style="padding-top: 20px;">Keramis</h1>
+        <h1 class="display-4 text-center" style="padding-top: 20px;font-family: Audiowide, serif;">Keramis</h1>
         <p id="description">Hello, I'm Keramis.<br>Please, if you wish, take a look around.<br>I'm a LUA developer and I'm slowly learning C++.<br></p>
     </div>
     <div class="container" style="background-color: transparent;text-align: center;color: white;font-family: monospace;">
@@ -25,20 +30,45 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h1>KeramiScript</h1>
+                <h1><a class="link-light" href="https://github.com/Keramis/Sneaky-Explosions-STANDAPI" target="_blank">KeramiScript</a></h1>
                 <p><strong>[LUA]</strong></p>
                 <p>(Updated to V.9, V.10 Soon™)</p>
                 <p>Was possible thanks to the Stand LUA API.</p>
             </div>
             <div class="col-md-6">
-                <h1>XORSTR</h1>
+                <h1><a class="link-light" href="https://github.com/Keramis/cpp_xorstr_per_char" target="_blank">XORSTR</a></h1>
                 <p><strong>[C++]</strong></p>
                 <p>Encrypts strings on a per-character basis,<br>using XOR encryption and 8-bit keys.</p>
             </div>
         </div>
     </div>
+    <div class="container" style="padding-top: 10em;">
+        <div class="row" id="2_2row">
+            <div class="col-md-12">
+                <h1 class="text-center" id="heading_second"><span style="text-decoration: underline;">Other Projects</span></h1>
+            </div>
+        </div>
+        <div class="row" id="row_2" style="padding-top: 16px;">
+            <div class="col-md-3">
+                <h1 style="font-size: 27px;"><a class="link-light" href="https://github.com/Keramis/joaat_bruteforcer">JOAAT_Bruteforcer</a></h1>
+                <p><strong>[C++]</strong><br><br>Bruteforces Jenkins-One-At-A-Time hashing, using a recursive function and a faster JOAAT hash, kindly provided by Vali.</p>
+            </div>
+            <div class="col-md-3">
+                <h1 style="font-size: 27px;"><a class="link-light" href="https://github.com/Keramis/Cat_ESP_STANDAPI">CAT_ESP-StandAPI</a></h1>
+                <p><strong>[LUA]</strong><br><br>Uses the DirectX drawing library provided by the Stand Lua API to provide a more customizable ESP.</p>
+            </div>
+            <div class="col-md-3">
+                <h1 style="font-size: 27px;"><a class="link-light" href="https://github.com/Keramis/KeyLockWithDiscord_STANDAPI">KeyLockWithDisord-StandAPI</a></h1>
+                <p><strong>[LUA]</strong><br><br>Uses the HTTP async functions provided by the Stand API to restrict access to executing lua scripts, using a discord webhook to authenticate users.</p>
+            </div>
+            <div class="col-md-3">
+                <h1 style="font-size: 27px;"><a class="link-light" href="https://github.com/Keramis/KeyLockWithDiscord_STANDAPI">Keramis-Sounds-StandAPI</a></h1>
+                <p><strong>[LUA]</strong><br><br>Uses GTAV native access, provided by the Stand API, to play any sound throughout the map.<br>Many menus flag these sounds as "crash events," so use with caution.</p>
+            </div>
+        </div>
+    </div>
     <footer class="footer-basic" style="padding-top: 7px;background: rgb(30,30,30);padding-top: 2em;">
-        <div class="social"><a href="#"><i class="fab fa-discord"></i></a>
+        <div class="social"><a id="discord-link" href="https://discord.gg/VAwBpghkM9"><i class="fab fa-discord"></i></a>
             <p id="f_paragraph">Join the KeramiScript Discord!</p>
         </div>
     </footer>
